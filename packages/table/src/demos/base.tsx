@@ -1,0 +1,1 @@
+import { FilterTable } from '@qingji/antd-compose-table';
