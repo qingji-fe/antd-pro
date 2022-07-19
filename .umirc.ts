@@ -8,4 +8,15 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
+  extraBabelPlugins: [
+    [
+      "import",
+      {
+        libraryName: "antd",
+        libraryDirectory: "es",
+        style: true
+      },
+      "antd",
+    ]
+  ],
 });

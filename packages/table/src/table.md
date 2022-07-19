@@ -18,4 +18,4 @@ nav:
 
 ### 查询表格
 
-<code src="./demos/base.tsx" background="#f5f5f5" height="610px" title="过滤表格"/>
+<code src="./demos/base.tsx" background="#f5f5f5" height="610px" />
